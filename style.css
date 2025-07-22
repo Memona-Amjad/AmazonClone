@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+}
+
+.Logo {
+    height: 70px;
+
+}
+
+.location {
+    font-weight: 700;
+}
+
+.border {
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.location {
+    display: flex;
+    gap: 5px;
+}
+
+.mapIcon {
+    margin-top: 10px;
+}
+
+.delivery {
+    font-weight: 100;
+    font-size: small;
+
+}
+
+.searcharea {
+    display: flex;
+    height: 30px;
+    position: relative;
+    width: 460px;
+
+}
+
+.selectarea {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #D4D4D4;
+    width: 450px;
+}
+.search {
+    width: 30px;
+    height: 30px;
+}
+.searchinput {
+    width: 400px;
+    border: none;
+    height: 29px;
+}
+
+
+.searchicon {
+    color: black;
+    width: 90px;
+    background-color: #FEBD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.p1 {
+    font-size: small;
+}
+
+.p2 {
+    font-weight: 700;
+    font-size: medium;
+}
+
+.list {
+    display: flex;
+    gap: 2px;
+    height: 10px;
+    bottom: 100px;
+    top: 0;
+}
+
+.listarea {
+    display: flex;
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    height: 10px;
+    top: 20px;
+    background-color: aliceblue;
+
+}
+
+.list {
+    position: relative;
+    margin-left: 2px;
+}
+
+.para {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.para2 {
+    font-weight: 600;
+}
+
+.lastbox {
+    color: white;
+    display: flex;
+    gap: 2px;
+}
+
+.secondSection {
+    height: 50px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+}
+
+.second1 {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.menus h4 {
+    font-weight: 100;
+    font-size: medium;
+    color: white;
+
+}
+
+.herosection{
+    height: 100vh;
+    background-image: url('Images/hero.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.items {
+    width: 310px;
+    height: 370px;
+    background-color: rgb(253, 251, 251);
+}
+
+.page1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+}
+
+.firstitem {
+    width: 300px;
+    position: relative;
+}
+
+.firstitems {
+    width: 100px;
+}
+
+.firstitem h3 {
+    margin: 10px;
+}
+
+.category {
+    display: flex;
+    gap: 20px;
+    height: 135px;
+}
+
+.firstitems {
+    margin-left: 10px;
+    height: 100px;
+}
+
+.category img {
+    width: 130px;
+}
+
+.itemnames {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.linkitmes {
+    position: absolute;
+    bottom: 5px;
+}
+
+.linkitmes a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.page1 {
+    display: flex;
+    height: 40%;
+    position: absolute;
+    top: 400px;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.seconditem {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.cooker {
+    width: 280px;
+    height: 140px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gamingclass {
+    height: 250px;
+    width: 160px;
+
+}
+
+.gamingclass img {
+    width: 250px;
+}
+
+.box11 {
+    height: 20px;
+}
+
+.scrollitemsSection {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+}
+
+.randomitems {
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.randomitems img {
+    display: inline-block;
+
+}
+
+.randomitems h3 {
+    margin: 10px;
+}
+
+.btn {
+    background-color: #FFD814;
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.footerarea {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+
+.helpsection {
+    display: flex;
+    justify-content: center;
+}
+
+.topbutton {
+    background-color: #37475A;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.topbutton p {
+    font-size: 90%;
+}
+
+.footer {
+    color: white;
+    height: 200px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+
+}
+
+.footerdiv1 h4 {
+    font-weight: 800b;
+}
+
+.footer p {
+    font-size: 90%;
+
+}
+
+.lastclass {
+    background-color: #131A22;
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.lastclass img {
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lastclass div {
+    display: flex;
+    border: 1px solid white;
+    color: white;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+    /* margin: 20px; */
+
+}
+
+.language {
+    width: 100px;
+}
+
+.currency {
+    display: flex;
+    width: 150px;
+}
+
+.currency p {
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.lastone {
+    width: 100px;
+}
